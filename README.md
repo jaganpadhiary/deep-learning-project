@@ -1,11 +1,41 @@
- Deep Learning Project
+## Deep Learning Project
+*COMPANY* : CODETECH IT SOLUTIONS
 
-This project demonstrates the implementation of a Deep Learning model using Python and popular frameworks such as TensorFlow and pytorch .
-The goal of this project is to build, train, and evaluate a neural network that can make accurate predictions based on input data.
+*NAME* : JAGAN PADHIARY
 
+*INTERN ID* : CT04DR268
 
-Overview
-This project demonstrates a simple yet effective deep learning approach to make predictions from data.  
-It covers data loading, preprocessing, model building, training, evaluation, and visualization of results.
+*DOMAIN* : DATA SCIENCE
 
+*DURATION* : 4 WEEKS
+## PROJECT OVERVIEW
+This project demonstrates a **deep learning model** built using **TensorFlow** to classify handwritten digits from the **MNIST dataset**.  
+It is a part of an **internship task** focusing on understanding the end-to-end workflow of building, training, and evaluating a neural network using image data.
 
+---
+
+##  Features
+- Loads and preprocesses the MNIST dataset automatically  
+- Builds a **fully connected neural network (ANN)**  
+- Trains the model on 60,000 handwritten digit images  
+- Evaluates accuracy on 10,000 test images  
+- Visualizes predictions with Matplotlib  
+
+---
+
+##  Model Architecture
+| Layer Type | Description |
+| Flatten | Converts 28×28 pixel images into a 1D vector |
+| Dense (128 units) | Fully connected layer with ReLU activation |
+| Dense (10 units) | Output layer using softmax activation for 10 classes (digits 0–9) |
+
+---
+
+##  Tech Stack
+- **Python 3.13.5**
+- **TensorFlow / Keras**
+- **Matplotlib**
+
+---
+
+##  Project Structure
