@@ -8,6 +8,8 @@
 *DOMAIN* : DATA SCIENCE
 
 *DURATION* : 4 WEEKS
+
+*MENTOR* : NEELA SANTOSH KUMAR
 ## PROJECT OVERVIEW
 This project demonstrates a **deep learning model** built using **TensorFlow** to classify handwritten digits from the **MNIST dataset**.  
 It is a part of an **internship task** focusing on understanding the end-to-end workflow of building, training, and evaluating a neural network using image data.
@@ -46,7 +48,7 @@ MNIST_DeepLearning_Project
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### Step 1: Load Data
 The MNIST dataset (70,000 grayscale images of digits 0–9) is loaded directly from TensorFlow.
