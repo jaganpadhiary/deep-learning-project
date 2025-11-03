@@ -39,3 +39,8 @@ It is a part of an **internship task** focusing on understanding the end-to-end 
 ---
 
 ##  Project Structure
+
+<img width="292" height="306" alt="Image" src="https://github.com/user-attachments/assets/8c4eca44-a466-4dee-bc1a-af0eff98d45a" />
+
+
+<img width="439" height="316" alt="Image" src="https://github.com/user-attachments/assets/5d0f612b-bcba-4353-9484-4c4ca05d41e1" />
