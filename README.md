@@ -37,7 +37,63 @@ It is a part of an **internship task** focusing on understanding the end-to-end 
 - **Matplotlib**
 
 ---
+MNIST_DeepLearning_Project
+│
+├── mnist_project.py # Main deep learning script
+├── README.md # Project documentation
+└── (auto-downloaded MNIST dataset)
 
+
+---
+
+## ⚙️ How It Works
+
+### Step 1: Load Data
+The MNIST dataset (70,000 grayscale images of digits 0–9) is loaded directly from TensorFlow.
+
+### Step 2: Preprocess Data
+Each image is normalized (pixel values divided by 255.0) to help the model train efficiently.
+
+### Step 3: Build Model
+A simple sequential model with dense layers is defined using TensorFlow’s Keras API.
+
+### Step 4: Train Model
+The model is trained for 5 epochs using the Adam optimizer and sparse categorical crossentropy loss.
+
+### Step 5: Evaluate and Predict
+The model’s accuracy is evaluated, and predictions are visualized for random test images.
+
+---
+This will:
+
+Train the model on MNIST data
+
+Display the test accuracy
+
+Show a visualization of a test image and its predicted label
+
+## Example Output
+
+Training Output:
+
+Epoch 1/5
+1875/1875 [==============================] - 5s 2ms/step - loss: 0.26 - accuracy: 0.93
+...
+Test Accuracy: 97.9%
+
+
+Visualization:
+An MNIST digit image is displayed with its predicted label on top.
+
+## Future Improvements
+
+Add Convolutional Neural Networks (CNNs) for higher accuracy
+
+Implement Dropout layers to reduce overfitting
+
+Save and load trained models using model.save() and tf.keras.models.load_model()
+
+Add a Flask or Streamlit web interface for digit prediction
 ##  Project Structure
 
 <img width="292" height="306" alt="Image" src="https://github.com/user-attachments/assets/8c4eca44-a466-4dee-bc1a-af0eff98d45a" />
